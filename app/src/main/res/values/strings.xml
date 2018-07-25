@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UpstreamFCM</string>
+
+    <string name="connect">connect</string>
+    <string name="disconnect">disconnect</string>
+    <string name="send_test_msg">test msg</string>
+</resources>
