@@ -7,4 +7,21 @@ object Util {
     val HOST        = "fcm-xmpp.googleapis.com"
     val PORT        = 5235 // production
     val TEST_Port   = 5236 // test
+
+    // For the FCM connection
+    val FCM_SERVER = "fcm-xmpp.googleapis.com"
+    val FCM_PORT = 5236 // testing api
+    val FCM_ELEMENT_NAME = "gcm"
+    val FCM_NAMESPACE = "google:mobile:data"
+    val FCM_SERVER_CONNECTION = "gcm.googleapis.com"
+
+    // For the message process types
+    val BACKEND_ACTION_ECHO = "ECHO"
+    val BACKEND_ACTION_MESSAGE = "MESSAGE"
+
+    // For the app common payload message attributes (android - xmpp server)
+    val PAYLOAD_ATTRIBUTE_MESSAGE = "message"
+    val PAYLOAD_ATTRIBUTE_ACTION = "action"
+    val PAYLOAD_ATTRIBUTE_RECIPIENT = "recipient"
+    val PAYLOAD_ATTRIBUTE_ACCOUNT = "account"
 }
